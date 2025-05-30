@@ -1,0 +1,5 @@
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=./out/build/ distclean
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=./out/build/ menuconfig
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=./out/build/ savedefconfig
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=./out/build/ coolpi_linux_preempt_rt_defconfig
+make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=./out/build/ coolpi_linux_preempt_full_rt_defconfig
