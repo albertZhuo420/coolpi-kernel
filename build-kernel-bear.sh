@@ -99,7 +99,7 @@ if [ ! -d "$K_SRC/.vscode" ]; then
     info "已创建 .vscode/ 目录"
 fi
 
-cp -af "$K_OUT/compile_commands.json" "$K_SRC/.vscode/compile_commands.json"
+cp -af "$K_SRC/compile_commands.json" "$K_SRC/.vscode/compile_commands.json"
 info "✔ 已复制到: $K_SRC/.vscode/compile_commands.json"
 
 exit 0
