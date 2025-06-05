@@ -1,0 +1,5 @@
+此目录下的rtl8xxxu驱动来源:
+  
+repo: https://github.com/gregkh/linux
+branch: linux-6.6.y
+kernel version: 6.6.93
